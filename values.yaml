@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: juzonb1r/manual-app
+  repository: juzonb1r/my-website
   tag: "9"
   pullPolicy: Always
 
