@@ -2,6 +2,7 @@ replicaCount: 1
 
 image:
   repository: juzonb1r/my-website
+  tag "latest"
   pullPolicy: Always
 
 service:
