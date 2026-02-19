@@ -17,7 +17,7 @@ spec:
         - name: manual-app
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           ports:
-            - containerPort: 3000
+            - containerPort: 80
 
   strategy:
     canary:
